@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+  <param name="m_bSingle_TF_option" type="bool" value="true" /> <!--false-->
+  <node pkg="serial_example" type="serial_example" name="serial_example" output="screen" />
+</launch>
